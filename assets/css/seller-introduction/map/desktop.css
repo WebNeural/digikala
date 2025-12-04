@@ -1,0 +1,30 @@
+.map{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    align-items: top;
+    height: 400px;
+}
+.map > div:first-child{
+    background-color: #A41935;
+    width: 100%;
+    padding: 15px;
+    height: inherit;
+    display: grid;
+    align-items: center;
+}
+.map > div:first-child h1{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+.map > div:first-child p{
+    color: rgb(237, 237, 237);
+    font-size: var(--secendry-font-size);
+}
+.map > div:last-child{
+    width: 100%;
+}
+.map > div:last-child iframe {
+    height: 400px;
+}

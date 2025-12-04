@@ -1,0 +1,75 @@
+.intro{
+    background: url('./../../../photos/s-i-bg.png');
+    height: 500px;
+    background-position: top;
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    padding: 15px;
+    position: relative;
+}
+.intro-wrapper a,
+.intro-wrapper h1,
+.intro-wrapper p{
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    display: block;
+}
+.intro-wrapper h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.intro-wrapper a{
+    background-color: #B21F3C;
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: 12px;
+}
+.intro-bottom{
+    position: relative;
+    width: 80%;
+    background-color: #B21F3C;
+    border-radius: 12px;
+    margin: 0 auto;
+    height: 350px;
+    margin-top: 250px;
+}
+.intro-bottom .bottom-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 12px 0 0;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+}
+.intro-bottom h1{
+    padding-top: 60px;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.intro-bottom .space{
+    width: 30%;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background: #fff;
+    border-radius: 50px;
+}
+.intro-bottom p{
+    color: #efefef;
+    font-size: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.intro-bottom video{
+    border-radius: 14px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}

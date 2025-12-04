@@ -1,0 +1,40 @@
+.madarek {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.madarek-row {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.madarek-card {
+  background: white;
+  width: 500px;
+  padding: 30px 15px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.madarek-card:hover {
+  transform: translateY(-5px);
+}
+
+.madarek-icon {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.madarek-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.madarek-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}

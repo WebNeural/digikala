@@ -1,0 +1,50 @@
+.faq{
+    margin: 50px auto;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 24px;
+}
+.faq h1{
+    color: rgb(63, 64, 100);
+    font-size: 20px;
+    font-weight: 500;
+}
+.faq .space{
+    border-radius: 50px;
+    background-color: crimson;
+    width: 80px;
+    height: 2px;
+    margin: 10px 0 20px 0;
+}
+.faq div:last-child{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+.faq div:last-child a{
+    display: grid;
+    grid-template-columns: 90% 1fr;
+    position: relative;
+    justify-content: space-between;
+}
+.faq div:last-child a::after{
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 0 auto;
+    height: 1px;
+    position: absolute;
+    bottom: -20px;
+}
+.faq div:last-child h3{
+    font-size: var(--main-font-size);
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+.faq div:last-child svg{
+    width: 18px;
+    height: 18px;
+    justify-self: left;
+}

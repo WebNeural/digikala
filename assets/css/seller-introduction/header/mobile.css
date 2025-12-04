@@ -1,0 +1,23 @@
+header[data-page="s-i"]{
+    position: relative;
+    height: 76px;
+    padding: 0;
+}
+header[data-page="s-i"] .mobile-menu{
+    display: block;
+    position: absolute;
+    left: 15px;
+    width: fit-content;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header[data-page="s-i"] .mobile-menu svg {
+    padding: 6px;
+    background-color: #B21F3C;
+    width: 42px;
+    border-radius: 10px;
+    height: 42px;
+}
+.header-wrapper{
+    display: none;
+}

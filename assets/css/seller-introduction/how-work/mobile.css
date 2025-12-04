@@ -1,0 +1,62 @@
+.how-work {
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-image: url(../../../photos/s-i-bg-3.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 213px 245px;
+  padding: 32px 16px 45px 0;
+}
+
+.how-work .flow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.how-work .step {
+  width: 200px;
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+}
+
+.how-work .step .icon {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 6px;
+  background: #fce2e5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-work .step .icon svg {
+  width: 30px;
+  height: 30px;
+  stroke: rgba(0, 0, 0, 0.7);
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.how-work .step .label {
+  font-size: 14px;
+  color: #1e293b;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.how-work .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #0f172a;
+  text-align: right;
+}

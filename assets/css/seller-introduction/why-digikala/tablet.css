@@ -1,0 +1,70 @@
+.why-digikala h1 {
+  color: rgb(63, 64, 100);
+  font-weight: 500;
+  font-size: 18px;
+}
+.why-digikala .space {
+  background-color: rgb(255, 113, 85);
+  width: 30%;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.why-digikala {
+  padding: 12px;
+  margin: 250px auto 20px auto;
+}
+
+.why-digikala .option{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.why-digikala .card {
+  display: flex;
+  gap: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  align-items: flex-start;
+}
+
+.why-digikala .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.why-digikala .icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: #0f172a;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.why-digikala .text {
+  flex: 1;
+}
+
+.why-digikala .title {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 6px;
+  color: #1e293b;
+}
+
+.why-digikala .desc {
+  font-size: 13px;
+  margin: 0;
+  color: #475569;
+  line-height: 1.6;
+}

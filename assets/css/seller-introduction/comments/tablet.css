@@ -1,0 +1,53 @@
+.comments{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-top: 30px;
+}
+.comments > div:first-child h1{
+    color: rgb(63, 64, 100);
+    font-size: 18px;
+    font-weight: 500;
+}
+.comments > div:first-child .space{
+    background-color: crimson;
+    border-radius: 50px;
+    height: 2px;
+    width: 90px;
+    display: block;
+    padding: 0;
+    margin: 5px 0 20px 0;
+    border: 0;
+}
+.comments > div:first-child > div{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.comments > div:first-child video{
+    width: 100%;
+    border-radius: inherit;
+    height: 174px;
+}
+.comments > div:last-child {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    margin-top: 50px;
+}
+.comments > div:last-child h2{
+    color: rgb(129, 133, 139);
+    font-size: var(--secendry-font-size);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.comments > div:last-child span{
+    display: block;
+    color: gray;
+    font-size: 10px;
+}
+.comments > div:last-child p{
+    color: rgb(63, 64, 100);
+    font-size: var(--secendry-font-size);
+    padding-left: 80px;
+}

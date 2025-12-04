@@ -1,0 +1,48 @@
+.tax h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(63, 64, 100);
+}
+.tax .space{
+    background-color: crimson;
+    border-radius: 50px;
+    width: 25%;
+    height: 2px;
+    display: block;
+    margin: 10px 0 20px 0;
+}
+.tax p{
+    font-size: var(--secendry-font-size);
+    font-weight: 200;
+    color: rgb(63, 64, 100);
+}
+.tax .categories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tax .categories > div{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 14px;
+    width: 100%;
+    height: 120px;
+}
+.tax .categories svg{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.tax .categories h2{
+    font-weight: 500;
+    color: rgb(63, 64, 100);
+    font-size: var(--secendry-font-size);
+}
+.tax .categories span{
+    display: block;
+    color: gray;
+    font-size: 10px;
+}
